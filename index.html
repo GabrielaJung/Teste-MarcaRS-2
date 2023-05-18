@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>teste 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="main">
+            <div id="armazenamento">
+
+            </div>
+            <div class="conteudo">
+                <div id="dispositivos">
+
+                </div>
+                <div id="playlists">
+
+                </div>
+                <div id="layouts">
+
+                </div>
+            </div>
+            <div class="popup-container">
+                <div class="popup-content">
+                    <h2>Adicionar playlist</h2>
+                    <div class="inputs">
+                        <div>
+                            <label for="nome-playlist">Nome da playlist</label>
+                            <input type="text" id="nome-playlist">
+                        </div>
+                        <div>
+                            <label for="midia-playlist">Quantidade de mídias</label>
+                            <input type="number" id="midia-playlist">
+                        </div>
+                        
+                    </div>
+
+                    <div class="buttons">
+                        <button class="addPlaylist" onclick="buscaDadosInput()"> Adicionar</button>
+                        <button class="fechar-popup" onclick="fecharPopup()">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+</html>
